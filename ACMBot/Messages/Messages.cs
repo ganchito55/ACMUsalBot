@@ -54,5 +54,16 @@ Lista de comandos:
             return $@"ACM-SIGNET [entrar]({Private.SIGNET})";
         }
 
+        /// <summary>
+        /// Show the bot description
+        /// </summary>
+        /// <returns></returns>
+        public static string Description()
+        {
+            return @"Bot creado por @suudo con C# y el MS Bot Framework
+
+[GitHub](https://github.com/ganchito55/ACMUsalBot) v1";
+        }
+
     }
 }

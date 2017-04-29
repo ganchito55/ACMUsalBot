@@ -31,6 +31,9 @@ namespace ACMBot
                         case "/list":
                             replyString = Messages.Messages.List();
                             break;
+                        case "/description":
+                            replyString = Messages.Messages.Description();
+                            break;
                         case "/help":
                             replyString = Messages.Messages.Help();
                             break;
