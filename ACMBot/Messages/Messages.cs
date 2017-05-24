@@ -51,7 +51,9 @@ Lista de comandos:
         /// <returns></returns>
         public static string List()
         {
-            return $@"ACM-SIGNET [entrar]({Private.SIGNET})";
+            return $@"ACM-SIGNET [entrar]({Private.SIGNET})
+
+ACM-JOBS [entrar]({Private.JOBS})";
         }
 
         /// <summary>
