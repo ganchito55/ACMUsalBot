@@ -53,7 +53,13 @@ Lista de comandos:
         {
             return $@"ACM-SIGNET [entrar]({Private.SIGNET})
 
-ACM-JOBS [entrar]({Private.JOBS})";
+ACM-JOBS [entrar]({Private.JOBS})
+
+ACM-SIGWEB [entrar]({Private.SIGWEB})
+
+ACM-SIGAI [entrar]({Private.SIGIA})
+
+ACM-SIGDEV [entrar]({Private.SIGDEV})";
         }
 
         /// <summary>
