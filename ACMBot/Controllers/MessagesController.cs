@@ -20,6 +20,7 @@ namespace ACMBot
             // Only works in ACM Offtopic
             if (activity.Conversation.Id == Private.ACMOfftopic)
             {
+          
                 if (activity.Type == ActivityTypes.Message)
                 {
                     var connector = new ConnectorClient(new Uri(activity.ServiceUrl));
@@ -29,12 +30,15 @@ namespace ACMBot
                     switch (activity.Text)
                     {
                         case "/list":
+                        case "/list@ACMUsalBot":
                             replyString = Messages.Messages.List();
                             break;
                         case "/description":
+                        case "/description@ACMUsalBot":
                             replyString = Messages.Messages.Description();
                             break;
                         case "/help":
+                        case "/help@ACMUsalBot":
                             replyString = Messages.Messages.Help();
                             break;
                     }
