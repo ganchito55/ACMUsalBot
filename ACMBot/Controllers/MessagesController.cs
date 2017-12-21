@@ -25,7 +25,7 @@ namespace ACMBot
                 {
                     var connector = new ConnectorClient(new Uri(activity.ServiceUrl));
 
-                    //Filter bot messages
+                //Filter bot messages
                     string replyString = null;
                     switch (activity.Text)
                     {
@@ -42,10 +42,10 @@ namespace ACMBot
                             replyString = Messages.Messages.Help();
                             break;
                     }
-
-                    // return our reply to the user
-                    var reply = activity.CreateReply($@"{replyString}");
-                    await connector.Conversations.ReplyToActivityAsync(reply);
+                    
+                // return our reply to the user
+                var reply = activity.CreateReply($@"{replyString}");
+                await connector.Conversations.ReplyToActivityAsync(reply);
                 }
                 else
                 {

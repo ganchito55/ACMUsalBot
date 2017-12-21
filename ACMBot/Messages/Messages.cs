@@ -55,11 +55,11 @@ Lista de comandos:
 
 ACM-JOBS [entrar]({Private.JOBS})
 
-ACM-SIGWEB [entrar]({Private.SIGWEB})
-
 ACM-SIGAI [entrar]({Private.SIGIA})
 
-ACM-SIGDEV [entrar]({Private.SIGDEV})";
+ACM-SIGDEV [entrar]({Private.SIGDEV})
+
+ACM-SIGSECURITY [entrar]({Private.SIGSECURITY})";
         }
 
         /// <summary>
@@ -68,9 +68,9 @@ ACM-SIGDEV [entrar]({Private.SIGDEV})";
         /// <returns></returns>
         public static string Description()
         {
-            return @"Bot creado por @suudo con C# y el MS Bot Framework
+            return @"Bot creado por @suudo con C# y MS Bot Framework
 
-[GitHub](https://github.com/ganchito55/ACMUsalBot) v1";
+[GitHub](https://github.com/ganchito55/ACMUsalBot) v1.1";
         }
 
     }
