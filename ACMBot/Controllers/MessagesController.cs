@@ -41,6 +41,10 @@ namespace ACMBot
                         case "/help@ACMUsalBot":
                             replyString = Messages.Messages.Help();
                             break;
+                        case "/staff":
+                        case "/staff@ACMUsalBot":
+                            replyString = Messages.Messages.Staff();
+                            break;
                     }
                     
                 // return our reply to the user

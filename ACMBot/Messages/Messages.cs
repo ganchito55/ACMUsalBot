@@ -16,12 +16,12 @@
         {
             return $@"**Hola {name}, bienvenido a la ACM USAL!**
 
-Se te ha dado de alta en dos grupos, este y ACM-Offtopic.
+Se te ha dado de alta en dos grupos, ACM-Offtopic y ACM USAL.
 
-Este grupo es para cosas importantes, que todos debemos saber.
+ACM USAL es para cosas importantes, que todos debemos saber.
 Estaría bien que dejaras este grupo con notificaciones.
 
-El otro grupo es para que hables siempre que quieras sobre cualquier
+ACM-Offtopic es para que hables siempre que quieras sobre cualquier
 cosa que se te ocurra, y lo puedes silenciar si te molesta demasiado.
 
 Si necesitas saber cuales son los grupos, lo puedes hacer con:
@@ -73,5 +73,17 @@ ACM-SIGSECURITY [entrar]({Private.SIGSECURITY})";
 [GitHub](https://github.com/ganchito55/ACMUsalBot) v1.1";
         }
 
+        public static string Staff()
+        {
+            return @"La junta de ACM 2018-2019
+
+Presidente: Guillermo Reguera - @heymechanic
+
+Vicepresidente: Juan Carlos Martin - @Heartless_Lion
+
+Tesorero: Arturo Vazquez - @arzurr
+
+Secretario: Rodrigo Zevallos - @TheNomo3000";
+        }
     }
 }
